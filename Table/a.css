@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    }
+    
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid gainsboro;
+}
+
+thead {
+    /* background-color: white; */
+}
+
+tr:nth-child(even) {
+    /* background-color: white; */
+}
+
+tr:hover {
+    /* background-color: White; */
+}
+
+th {
+  
+    color: rgb(12, 8, 8);
+}
+table{
+    width: 80%;
+    height: auto;
+}
+
+td {
+    color: #333;
+}
+
+.large-italic {
+    margin-top: 0%;
+    font-size: 30px; 
+    font-style: oblique;
+    color: palegreen;
+img{
+    height: 50px;
+
+}
+}
+   
+
+
+.navbar {
+    /* background-color: ghostwhite; */
+    height: 50px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+   
+  
+  
+}
+.container{
+    background-color: rgb(184, 184, 184);
+    padding: auto;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1600px;
+    list-style: none;
+
+   
+}
+.navbar-button {
+    background-color: #090a09;
+    color: white;
+    border: 1px;
+    padding: 8px 12px;
+    margin-right: 5px ;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: auto;
+   
+}
+
+.navbar-button:hover {
+    background-color: #e4ebe4;
+}
+
+
+
